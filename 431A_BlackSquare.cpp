@@ -11,6 +11,7 @@ int main() {
     long long total = 0;
 
     for (char c : s) {
+        
         total += a[c - '1'];
     }
 
